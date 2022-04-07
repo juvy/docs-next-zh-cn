@@ -46,7 +46,7 @@ console.log(count.value) // 3
 
 ```ts
 const count = ref(1)
-const obj = reactive({})
+const obj = reactive({count})
 
 obj.count = count
 
